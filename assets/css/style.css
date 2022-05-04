@@ -34,5 +34,9 @@
 } */
 
 .header {
-	
+	/* border: 2px solid green; */
+	background-image: url("/assets/images/image.jpg");
+	/* height: 350px; */
+	/* width: 100%; */
+	background-size: cover;
 }

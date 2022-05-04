@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nav-bar {
+	display: flex;
+	border: 1px solid green;
+	/* margin: 10px 30px; */
+	justify-content: space-around;
+	background-color: rgb(187, 25, 25);
+	height: 80px;
+	align-items: center;
+}
+.navs {
+	display: flex;
+	justify-content: spac;
+	
+}
+.navs ul {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+.navs ul li a{
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 1.2em;
+
+}
+.header .img-1,img {
+	position: fixed;
+}
+
+.header {
+height: 400px;
+width: 100%;
+text-align: center;
+padding-top: 100px;
+color: white;
+overflow: hidden;
+background: #C04848;
+/* fallback for old browsers */
+background: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+/* Chrome 10-25, Safari 5.1-6 */
+background: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-repeat: no-repeat;
+}

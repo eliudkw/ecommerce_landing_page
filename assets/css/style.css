@@ -7,10 +7,7 @@
 .logo {
 	color: bisque;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> shop
 .nav-bar {
 	display: flex;
 	border: 1px solid green;
@@ -57,31 +54,17 @@ h2 {
 }
 
 .text {
-<<<<<<< HEAD
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-=======
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
->>>>>>> shop
 	color: #fff;
 	font-family: 'sans';
 	margin-left: 15%;
 }
 
 button.btn-shop {
-<<<<<<< HEAD
-    width: 110px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: transparent;
-    border: solid 2px #fff;
-    color: #fff;
-	
-=======
 	width: 110px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -89,7 +72,6 @@ button.btn-shop {
 	border: solid 2px #fff;
 	color: #fff;
 
->>>>>>> shop
 }
 
 button.btn-shop:hover {

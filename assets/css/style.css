@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 
+.logo {
+	color: bisque;
+}
 .nav-bar {
 	display: flex;
 	border: 1px solid green;
@@ -27,25 +30,43 @@
 	text-decoration: none;
 	font-weight: 100;
 	font-size: 1.2em;
+	color: #fff;
 
-}
-.header .img-1,img {
-	position: fixed;
 }
 
 .header {
-height: 400px;
-width: 100%;
-text-align: center;
-padding-top: 100px;
-color: white;
-overflow: hidden;
-background: #C04848;
-/* fallback for old browsers */
-background: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
-/* Chrome 10-25, Safari 5.1-6 */
-background: url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size: cover;
-background-repeat: no-repeat;
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url(/assets/images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    height: 50vh;
+    z-index: 1;
+    display: flex;
+    background-position: 0px 0px, 50% 50%;
+}
+
+
+.text h2 {
+    font-size: 38px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    font-family: 'sans';
+    margin-left: 15%;
+}
+button.btn-shop {
+    width: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+	
+}
+
+button.btn-shop:hover {
+	background-color: #3e7b8e
 }
